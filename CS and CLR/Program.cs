@@ -51,6 +51,22 @@ namespace CS_and_CLR
             MyFavoriteDay = DaysOfWeek.Friday;
             Console.WriteLine(MyFavoriteDay);
 
+            // 3.5 ВВОД И ВЫВОД НА КОНСОЛЬ
+            Console.WriteLine("\tПривет,\n мир!");
+            Console.WriteLine();
+
+            string eName = "Евгения";
+            Console.WriteLine("Привет, мир");
+            Console.WriteLine();
+            Console.WriteLine("Меня зовут " + eName);
+            Console.WriteLine();
+            Console.WriteLine("Меня зовут {0}", eName);
+            Console.WriteLine();
+
+            var myAge = 55;
+            var myWeight = 100;
+            Console.WriteLine("Возраст {0} \nВес {1}", myAge, myWeight);
+
         }
 
         enum DaysOfWeek : byte
