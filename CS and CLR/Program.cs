@@ -66,6 +66,8 @@ namespace CS_and_CLR
             var myAge = 55;
             var myWeight = 100;
             Console.WriteLine("Возраст {0} \nВес {1}", myAge, myWeight);
+            Console.WriteLine();
+            Console.WriteLine("{0} \n  {1} \n {2}", "Jane", 27, "black");
 
         }
 
