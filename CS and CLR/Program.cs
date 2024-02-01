@@ -68,6 +68,13 @@ namespace CS_and_CLR
             Console.WriteLine("Возраст {0} \nВес {1}", myAge, myWeight);
             Console.WriteLine();
             Console.WriteLine("{0} \n  {1} \n {2}", "Jane", 27, "black");
+            Console.WriteLine("===========================================");
+
+
+            // ОСНОВНЫЕ ОПЕРАЦИИ С#
+            Console.WriteLine();
+            Console.WriteLine("ОСНОВНЫЕ ОПЕРАЦИИ C#");
+            Console.WriteLine();
 
         }
 
