@@ -11,7 +11,7 @@ namespace CS_and_CLR
 
         static void Main(string[] args)
         {
-            string MyName;
+            /*string MyName;
             MyName = "Dmitry";
             Console.WriteLine(MyName);
 
@@ -68,17 +68,42 @@ namespace CS_and_CLR
             Console.WriteLine("Возраст {0} \nВес {1}", myAge, myWeight);
             Console.WriteLine();
             Console.WriteLine("{0} \n  {1} \n {2}", "Jane", 27, "black");
-            Console.WriteLine("===========================================");
+            Console.WriteLine("===========================================");*/
 
 
             // ОСНОВНЫЕ ОПЕРАЦИИ С#
-            Console.WriteLine();
+            /*Console.WriteLine();
             Console.WriteLine("ОСНОВНЫЕ ОПЕРАЦИИ C#");
             Console.WriteLine();
 
+            double a = 5;
+            double b = 2;
+            double result = a / b;
+            Console.WriteLine(result);
+            Console.WriteLine();
+
+            int counter = 10;
+            Console.WriteLine("Value: {0} PrefixIncrement: {1}", counter, ++counter);
+            counter = 10;
+            Console.WriteLine("Value: {0} PostfixIncrement: {1}", counter, counter++);
+            Console.WriteLine("Value: {0}", counter);
+
+            double result2 = 5 / 2 * 3;
+            Console.WriteLine($"Result = {result2}");
+
+            double result3 = 10 % 3;
+            Console.WriteLine(result3);*/
+
+            // Преобразование типов
+            Console.WriteLine("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            byte age = (byte) int.Parse(Console.ReadLine());
+            Console.WriteLine("Your name is {0} and age is {1}.", name, age);
+            Console.WriteLine();
         }
 
-        enum DaysOfWeek : byte
+        /*enum DaysOfWeek : byte
         {
             Tuesday,
             Wednesday,
@@ -96,6 +121,6 @@ namespace CS_and_CLR
             Red = 100,
             Yellow = 200,
             Green = 300
-        }
+        }*/
     }
 }
