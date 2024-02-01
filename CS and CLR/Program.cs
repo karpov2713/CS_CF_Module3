@@ -13,7 +13,7 @@ namespace CS_and_CLR
             string MyName;
             MyName = "Dmitry";
             Console.WriteLine(MyName);
-            // Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }
