@@ -60,5 +60,17 @@ namespace CS_and_CLR
             Thursday,
             Friday
         }
+        enum ProgramData : int
+        {
+            ProgramId = 123,
+            AuthorId = 567
+        }
+        // Перечисление Semaphore
+        enum Semaphore : int
+        {
+            Red = 100,
+            Yellow = 200,
+            Green = 300
+        }
     }
 }
