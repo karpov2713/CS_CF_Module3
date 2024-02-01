@@ -8,6 +8,7 @@ namespace CS_and_CLR
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
             string MyName;
@@ -42,9 +43,22 @@ namespace CS_and_CLR
             // Диапазоны значений некоторых типов данных.
             Console.WriteLine($"IntMin: {int.MinValue}");
             Console.WriteLine($"IntMax: {int.MaxValue}");
-            Console.WriteLine($"sbyte: {sbyte.MinValue} -> {sbyte.MaxValue}");
+            Console.WriteLine($"sbyte: от {sbyte.MinValue} до {sbyte.MaxValue}");
 
+            // 3.4 ПЕРЕЧИСЛЕНИЯ
+            // Определено за пределами метода Main
+            DaysOfWeek MyFavoriteDay;
+            MyFavoriteDay = DaysOfWeek.Friday;
+            Console.WriteLine(MyFavoriteDay);
 
+        }
+
+        enum DaysOfWeek : byte
+        {
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday
         }
     }
 }
