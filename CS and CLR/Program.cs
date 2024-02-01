@@ -13,6 +13,9 @@ namespace CS_and_CLR
             string MyName;
             MyName = "Dmitry";
             Console.WriteLine(MyName);
+
+            const string myName = "Dima";
+            Console.WriteLine(myName);
             Console.ReadKey();
         }
     }
