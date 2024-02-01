@@ -39,7 +39,10 @@ namespace CS_and_CLR
             Console.WriteLine("Do I have a pet? " + HaveIApet);
             Console.WriteLine("My shoe size is " + MyShoeSize);
 
-
+            // Диапазоны значений некоторых типов данных.
+            Console.WriteLine($"IntMin: {int.MinValue}");
+            Console.WriteLine($"IntMax: {int.MaxValue}");
+            Console.WriteLine($"sbyte: {sbyte.MinValue} -> {sbyte.MaxValue}");
 
 
         }
