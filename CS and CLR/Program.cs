@@ -95,12 +95,26 @@ namespace CS_and_CLR
             Console.WriteLine(result3);*/
 
             // Преобразование типов
-            Console.WriteLine("Enter your name: ");
+            /*Console.WriteLine("Enter your name: ");
             string name = Console.ReadLine();
             Console.Write("Enter your age: ");
             byte age = (byte) int.Parse(Console.ReadLine());
             Console.WriteLine("Your name is {0} and age is {1}.", name, age);
-            Console.WriteLine();
+            Console.WriteLine();*/
+
+            // Задание 3.7.4
+            string name;
+            int age;
+            DaysOfWeek favDay;
+            Console.Write("Enter your name: ");
+            name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Your name is {name} and age is {age}.");
+            Console.Write("What is your favorite day of week? ");
+            favDay = (DaysOfWeek) int.Parse(Console.ReadLine());
+            Console.WriteLine($"Your favorite day is {favDay}.");
+
         }
 
         enum DaysOfWeek : byte
