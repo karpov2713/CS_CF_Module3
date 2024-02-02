@@ -103,7 +103,7 @@ namespace CS_and_CLR
             Console.WriteLine();*/
 
             // Задание 3.7.4
-            string name;
+            /*string name;
             int age;
             DaysOfWeek favDay;
             Console.Write("Enter your name: ");
@@ -113,7 +113,18 @@ namespace CS_and_CLR
             Console.WriteLine($"Your name is {name} and age is {age}.");
             Console.Write("What is your favorite day of week? ");
             favDay = (DaysOfWeek) int.Parse(Console.ReadLine());
-            Console.WriteLine($"Your favorite day is {favDay}.");
+            Console.WriteLine($"Your favorite day is {favDay}.");*/
+
+            // Используем var.
+            /*Console.Write("What is your name? ");
+            var name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            var age = checked((byte) int.Parse(Console.ReadLine()));
+            Console.Write("What is your favorite day of a week? ");
+            var day = (DayOfWeek)int.Parse(Console.ReadLine());
+            Console.WriteLine($"Your name is {name}, your age is {age}, and your favorite day of a week is {day}.");*/
+
+
 
         }
 
