@@ -103,12 +103,15 @@ namespace CS_and_CLR
             Console.WriteLine();
         }
 
-        /*enum DaysOfWeek : byte
+        enum DaysOfWeek : byte
         {
+            Sunday,
+            Monday,
             Tuesday,
             Wednesday,
             Thursday,
-            Friday
+            Friday,
+            Saturday
         }
         enum ProgramData : int
         {
@@ -121,6 +124,6 @@ namespace CS_and_CLR
             Red = 100,
             Yellow = 200,
             Green = 300
-        }*/
+        }
     }
 }
